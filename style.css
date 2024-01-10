@@ -9,6 +9,7 @@ body {
     font-family: 'Lexend', Arial, sans-serif; 
     margin: 0;
     padding: 0;
+    color: white;
     background-color: #f4f4f4;
     background-image: url('bg.png'); 
     background-size: cover;
@@ -45,19 +46,19 @@ container {
 }
 
 header {
-    background-color: #08d4fc;
-    color: #020716;
+    background-color: #0E1225;
+    color: #FFFFFF;
     text-align: center;
     padding: 1em 0;
 }
 
 nav {
-    background-color: rgb(110, 159, 252);
+    background-color: #1B213D;
     padding: 1em;
 }
 
-nav a {
-    color: #020716;
+nav a.navbar-link {
+    color: #FFFFFF;
     text-decoration: none;
     margin: 0 1em;
 }
@@ -67,8 +68,18 @@ section {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #0E1225;
+    color: #ffffff;
     text-align: center;
     padding: 1em 0;
 }
+
+a:link {
+    color: rgb(238, 215, 116); 
+    text-decoration: none; 
+}
+
+a:visited {
+    color: rgb(218, 124, 255); 
+    text-decoration: none; 
+  }
